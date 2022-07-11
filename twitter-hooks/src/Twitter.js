@@ -27,21 +27,6 @@ function Twitter(props) {
       }
     }, [])
 
-  // componentDidUpdate = (prevProps) => {
-  //   const { loading } = props
-  //   if(props.loading !== prevProps.loading){
-  //     console.log('componentDidUpdate:loading', loading)
-  //   }
-  // }
-
-  // componentWillUnmount = () => {
-  //   console.log('componentWillUnmount fui removido: :(')
-  // }
-
-  // shouldComponentUpdate = (nextProps, nextState) => {
-  //   return state.tweet !== nextState.tweet
-  // }
-
   const handleTweet = () => {
     setTweet('Tweet atualizado')
   }
